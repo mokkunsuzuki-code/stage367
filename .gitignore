@@ -42,3 +42,10 @@ stage360_external_timestamp_proof_binding.py
 
 !docs/
 !docs/**
+
+# never publish raw OpenTimestamps / timestamp token binaries inside docs
+docs/**/*.ots
+docs/**/*.tsr
+docs/**/*.tsa
+docs/**/*.token
+docs/**/*.der
